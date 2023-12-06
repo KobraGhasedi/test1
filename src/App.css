@@ -1,0 +1,138 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+.items{
+  display: flex;
+  justify-content: space-between;
+  background-color: #6bb927;
+  border-radius: 6px;
+}
+.item {
+  background-color: white;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 29px;
+  margin: 10px;
+  text-align: center;
+  height: 70vh;
+}
+
+.linlItem {
+  text-decoration: none !important;
+  position: relative;
+}
+
+  .linlItem .spnitem {
+      color: #ef394e;
+      display: inline-block;
+      margin-bottom: 20px;
+      font-weight: 600;
+  }
+
+  .linlItem .owlImage {
+    width: 70%;
+    height: auto;
+  }
+
+.owlProductName {
+  font-size: 15px;
+  color: black;
+  text-align: right;
+  padding: 10px 0px;
+  font-weight: 700;
+}
+
+.linlItem .SendFast {
+  margin-left: 82px;
+}
+
+  .linlItem .SendFast .iconItem {
+      color: #6bb927;
+      padding-left: 5px;
+  }
+
+  .linlItem .SendFast p {
+    font-size: 12px;
+    color: #62666d;
+    display: inline-block;
+  }
+
+.owlPriceBox {
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.linlItem .TakhfifItem {
+  background-color: #d32f2f;
+    color: white;
+    display: inline-block;
+    border-radius: 44%;
+    width: 36px;
+    height: 22px;
+    text-align: center;
+    font-size: 13px;
+}
+ .owlUnitPrice {
+  font-size: 16px;
+  color: black;
+}
+
+.linlItem .priceOld {
+  text-align: left;
+  color: silver;
+  text-decoration-line: line-through;
+  font-size: 14px;
+}
+.addToBasket {
+  background-color: white;
+  border: 2px solid #ef4056;
+  outline: none;
+  border-radius: 50%;
+  color: #ef4056;
+  font-size: 23px;
+  font-weight: 700;
+  width: 41px;
+  height: 41px;
+  position: absolute;
+  top: 172px;
+  right: 35px;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
